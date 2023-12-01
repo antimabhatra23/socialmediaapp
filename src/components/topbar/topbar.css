@@ -1,0 +1,77 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+.searchbar {
+  width: 95%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.topbarLink {
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  /* font-family: 'Josefin Sans', sans-serif; */
+}
+.tobarIcons {
+  display: flex;
+}
+.topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.topbarImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  cursor: pointer;
+}
